@@ -1,0 +1,30 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "## Instructions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/nodemon index.js",
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "lint:fix": "./node_modules/.bin/eslint -f --format codeframe ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BMAnderson1913/movie-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BMAnderson1913/movie-api/issues"
+  },
+  "homepage": "https://github.com/BMAnderson1913/movie-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.3"
+  }
+}
